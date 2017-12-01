@@ -1,0 +1,29 @@
+{
+  "name": "aktie",
+  "version": "0.0.1",
+  "description": "Module State Management",
+  "main": "lib/index.js",
+  "author": "Gabe M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabemeola/aktie/issues"
+  },
+  "homepage": "https://github.com/gabemeola/aktie#readme",
+  "keywords": [
+    "State"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabemeola/aktie.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0"
+  }
+}
