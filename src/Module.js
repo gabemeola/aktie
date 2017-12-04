@@ -3,19 +3,17 @@ import debounce from 'lodash/debounce';
 
 
 export default class Module {
-    constructor(declaration, hydrationState) {
-        if (declaration.moduleName == null) {
+    constructor({
+        moduleName,
+        types,
+        initialState,
+        reducers = [],
+        hydrate = [],
+    }, hydrationState) {
+        if (moduleName == null) {
             console.error('[Aktie] Modules must have a "moduleName" field set');
             return;
         }
-
-        const {
-            moduleName,
-            types,
-            initialState,
-            reducers = [],
-            hydrate = [],
-        } = declaration;
 
         this.name = moduleName;
         this.types = types;
