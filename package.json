@@ -20,12 +20,12 @@
     "build": "rollup -c",
     "test": "jest"
   },
-  "peerDependencies": {
-    "react": "^16.2.0"
-  },
   "dependencies": {
     "lodash": "^4.17.4",
     "prop-types": "^15.6.0"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
