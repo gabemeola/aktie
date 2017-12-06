@@ -1,6 +1,6 @@
 {
   "name": "aktie",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Module State Management",
   "main": "lib/index.js",
   "author": "Gabe M",
