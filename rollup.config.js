@@ -8,7 +8,7 @@ const external = Object.keys(pkg.dependencies);
 module.exports = {
     input: path.join(__dirname, 'src', 'index.js'),
     output: {
-        format: 'cjs',
+        format: 'umd',
         file: path.join(__dirname, 'lib', 'index.js'),
     },
     external,

@@ -1,6 +1,6 @@
 {
   "name": "aktie",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Module State Management",
   "main": "lib/index.js",
   "author": "Gabe M",
@@ -16,8 +16,12 @@
     "type": "git",
     "url": "git+https://github.com/gabemeola/aktie.git"
   },
+  "files": [
+    "lib/"
+  ],
   "scripts": {
     "build": "rollup -c",
+    "prepare": "yarn build",
     "test": "jest"
   },
   "dependencies": {
